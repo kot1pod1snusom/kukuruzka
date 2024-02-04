@@ -131,11 +131,16 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Classes.h" />
+    <ClInclude Include="SpeedTest.h" />
     <ClInclude Include="Includes.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="text.txt" />
+    <None Include="PlayerFile.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Keyboard.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
